@@ -1,22 +1,20 @@
 <h1>InfoAgenda</h1>
 
- ### [Figma Prototype or Demo Video](https://youtu.be/7eJexJVCqJo)
+ ### [InfoAgenda Demo Video](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-This project involved a full redesign of the Espacio Team / Espacio Network website as part of a volunteer collaboration. The existing site was outdated and lacked modern UX/UI standards. The goal was to improve visual identity, user experience, and overall site structure using WordPress as CMS and Figma for mockup design.
+Small CRUD desktop application built with Java Swing with a local. This was one of my first academic projects, created to practice GUI development and basic CRUD logic. The objective was to understand how a database works and how to make GUIs in Java Swing taking inspiration from 
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>WordPress</b> 
-- <b>v0.dev</b>
-- <b>Figma</b>
+- <b>Java</b> 
+- <b>Java Swing</b>
 
 <h2>Environments Used </h2>
 
-- <b>CMS: WordPress 6.x</b>
-- <b>Builder: Elementor / Gutenberg</b>
+- <b>Apache Netbeans</b>
 
 <h2>Program walk-through:</h2>
 
