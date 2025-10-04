@@ -49,13 +49,13 @@
               <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="buscarTextField" min="-2" pref="200" max="-2" attributes="0"/>
+                      <Component id="searchTextField" min="-2" pref="200" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="buscarBtn" max="32767" attributes="0"/>
+                      <Component id="searchBtn" max="32767" attributes="0"/>
                       <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="izquierdaBtn" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="prevBtn" min="-2" pref="60" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                       <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -63,7 +63,7 @@
               </Group>
               <Component id="indexNumber" min="-2" pref="96" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="263" max="-2" attributes="0"/>
-              <Component id="derechaBtn" min="-2" pref="60" max="-2" attributes="0"/>
+              <Component id="nextBtn" min="-2" pref="60" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -81,15 +81,15 @@
               <Component id="jSeparator5" min="-2" pref="10" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="izquierdaBtn" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
-                  <Component id="derechaBtn" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                  <Component id="prevBtn" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                  <Component id="nextBtn" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
                   <Component id="indexNumber" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="63" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="buscarTextField" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="buscarBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="searchTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="searchBtn" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
           </Group>
@@ -115,9 +115,9 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="nombreTxt" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="apellidoTxt" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="cedulaTxt" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="firstNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lastNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="idLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -128,8 +128,8 @@
                           </Group>
                           <EmptySpace min="-2" pref="103" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="telefonoTxt" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="fnacTxt" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="phoneLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="birthDateLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
@@ -140,7 +140,7 @@
                       <Group type="102" attributes="0">
                           <Component id="idTextField" min="-2" pref="200" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="103" max="-2" attributes="0"/>
-                          <Component id="direccionTxt" min="-2" max="-2" attributes="0"/>
+                          <Component id="addressLabel" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                           <Component id="addressTextField" min="-2" pref="200" max="-2" attributes="0"/>
                       </Group>
@@ -154,22 +154,22 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="cedulaTxt" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="direccionTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="idLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="addressLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="addressTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="idTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="nombreTxt" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="telefonoTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="firstNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="phoneLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="phoneTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="firstNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="apellidoTxt" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="fnacTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lastNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="birthDateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="birthDateTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="lastNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
@@ -179,7 +179,7 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JLabel" name="cedulaTxt">
+        <Component class="javax.swing.JLabel" name="idLabel">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Lilex ExtraLight" size="18" style="0"/>
@@ -187,7 +187,7 @@
             <Property name="text" type="java.lang.String" value="Cedula   :"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="nombreTxt">
+        <Component class="javax.swing.JLabel" name="firstNameLabel">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Lilex ExtraLight" size="18" style="0"/>
@@ -195,7 +195,7 @@
             <Property name="text" type="java.lang.String" value="Nombre   :"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="apellidoTxt">
+        <Component class="javax.swing.JLabel" name="lastNameLabel">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Lilex ExtraLight" size="18" style="0"/>
@@ -217,7 +217,7 @@
             <Property name="enabled" type="boolean" value="false"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="direccionTxt">
+        <Component class="javax.swing.JLabel" name="addressLabel">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Lilex ExtraLight" size="18" style="0"/>
@@ -225,7 +225,7 @@
             <Property name="text" type="java.lang.String" value="Direccion :"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="telefonoTxt">
+        <Component class="javax.swing.JLabel" name="phoneLabel">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Lilex ExtraLight" size="18" style="0"/>
@@ -233,7 +233,7 @@
             <Property name="text" type="java.lang.String" value="Telefono  :"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="fnacTxt">
+        <Component class="javax.swing.JLabel" name="birthDateLabel">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Lilex ExtraLight" size="18" style="0"/>
@@ -316,7 +316,7 @@
     </Container>
     <Component class="javax.swing.JSeparator" name="jSeparator5">
     </Component>
-    <Component class="javax.swing.JButton" name="derechaBtn">
+    <Component class="javax.swing.JButton" name="nextBtn">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lilex ExtraThick" size="20" style="0"/>
@@ -325,7 +325,7 @@
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="derechaBtnActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nextBtnActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel8">
@@ -337,7 +337,7 @@
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="izquierdaBtn">
+    <Component class="javax.swing.JButton" name="prevBtn">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lilex ExtraThick" size="20" style="0"/>
@@ -345,7 +345,7 @@
         <Property name="text" type="java.lang.String" value="&lt;&lt;"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="izquierdaBtnActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="prevBtnActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="indexNumber">
@@ -365,14 +365,14 @@
         <Property name="enabled" type="boolean" value="false"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="buscarTextField">
+    <Component class="javax.swing.JTextField" name="searchTextField">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lilex ExtraLight" size="18" style="0"/>
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="buscarBtn">
+    <Component class="javax.swing.JButton" name="searchBtn">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lilex ExtraThick" size="20" style="0"/>
@@ -380,7 +380,7 @@
         <Property name="text" type="java.lang.String" value="Buscar"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buscarBtnActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchBtnActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

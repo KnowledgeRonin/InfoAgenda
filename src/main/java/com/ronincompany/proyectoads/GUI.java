@@ -39,25 +39,25 @@ public class GUI extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jSeparator3 = new javax.swing.JSeparator();
         jPanel2 = new javax.swing.JPanel();
-        cedulaTxt = new javax.swing.JLabel();
-        nombreTxt = new javax.swing.JLabel();
-        apellidoTxt = new javax.swing.JLabel();
+        idLabel = new javax.swing.JLabel();
+        firstNameLabel = new javax.swing.JLabel();
+        lastNameLabel = new javax.swing.JLabel();
         lastNameTextField = new javax.swing.JTextField();
-        direccionTxt = new javax.swing.JLabel();
-        telefonoTxt = new javax.swing.JLabel();
-        fnacTxt = new javax.swing.JLabel();
+        addressLabel = new javax.swing.JLabel();
+        phoneLabel = new javax.swing.JLabel();
+        birthDateLabel = new javax.swing.JLabel();
         addressTextField = new javax.swing.JTextField();
         phoneTextField = new javax.swing.JTextField();
         birthDateTextField = new javax.swing.JTextField();
         idTextField = new javax.swing.JTextField();
         firstNameTextField = new javax.swing.JTextField();
         jSeparator5 = new javax.swing.JSeparator();
-        derechaBtn = new javax.swing.JButton();
+        nextBtn = new javax.swing.JButton();
         jLabel8 = new javax.swing.JLabel();
-        izquierdaBtn = new javax.swing.JButton();
+        prevBtn = new javax.swing.JButton();
         indexNumber = new javax.swing.JTextField();
-        buscarTextField = new javax.swing.JTextField();
-        buscarBtn = new javax.swing.JButton();
+        searchTextField = new javax.swing.JTextField();
+        searchBtn = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Agenda");
@@ -65,28 +65,28 @@ public class GUI extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Lilex", 1, 36)); // NOI18N
         jLabel1.setText("Agenda Electronica");
 
-        cedulaTxt.setFont(new java.awt.Font("Lilex ExtraLight", 0, 18)); // NOI18N
-        cedulaTxt.setText("Cedula   :");
+        idLabel.setFont(new java.awt.Font("Lilex ExtraLight", 0, 18)); // NOI18N
+        idLabel.setText("Cedula   :");
 
-        nombreTxt.setFont(new java.awt.Font("Lilex ExtraLight", 0, 18)); // NOI18N
-        nombreTxt.setText("Nombre   :");
+        firstNameLabel.setFont(new java.awt.Font("Lilex ExtraLight", 0, 18)); // NOI18N
+        firstNameLabel.setText("Nombre   :");
 
-        apellidoTxt.setFont(new java.awt.Font("Lilex ExtraLight", 0, 18)); // NOI18N
-        apellidoTxt.setText("Apellido :");
+        lastNameLabel.setFont(new java.awt.Font("Lilex ExtraLight", 0, 18)); // NOI18N
+        lastNameLabel.setText("Apellido :");
 
         lastNameTextField.setFont(new java.awt.Font("Lilex ExtraLight", 0, 18)); // NOI18N
         lastNameTextField.setForeground(new java.awt.Color(0, 0, 0));
         lastNameTextField.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         lastNameTextField.setEnabled(false);
 
-        direccionTxt.setFont(new java.awt.Font("Lilex ExtraLight", 0, 18)); // NOI18N
-        direccionTxt.setText("Direccion :");
+        addressLabel.setFont(new java.awt.Font("Lilex ExtraLight", 0, 18)); // NOI18N
+        addressLabel.setText("Direccion :");
 
-        telefonoTxt.setFont(new java.awt.Font("Lilex ExtraLight", 0, 18)); // NOI18N
-        telefonoTxt.setText("Telefono  :");
+        phoneLabel.setFont(new java.awt.Font("Lilex ExtraLight", 0, 18)); // NOI18N
+        phoneLabel.setText("Telefono  :");
 
-        fnacTxt.setFont(new java.awt.Font("Lilex ExtraLight", 0, 18)); // NOI18N
-        fnacTxt.setText("F. Nac    :");
+        birthDateLabel.setFont(new java.awt.Font("Lilex ExtraLight", 0, 18)); // NOI18N
+        birthDateLabel.setText("F. Nac    :");
 
         addressTextField.setFont(new java.awt.Font("Lilex ExtraLight", 0, 18)); // NOI18N
         addressTextField.setForeground(new java.awt.Color(0, 0, 0));
@@ -121,9 +121,9 @@ public class GUI extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(46, 46, 46)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(nombreTxt)
-                    .addComponent(apellidoTxt)
-                    .addComponent(cedulaTxt))
+                    .addComponent(firstNameLabel)
+                    .addComponent(lastNameLabel)
+                    .addComponent(idLabel))
                 .addGap(6, 6, 6)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(jPanel2Layout.createSequentialGroup()
@@ -132,8 +132,8 @@ public class GUI extends javax.swing.JFrame {
                             .addComponent(firstNameTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(103, 103, 103)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(telefonoTxt)
-                            .addComponent(fnacTxt))
+                            .addComponent(phoneLabel)
+                            .addComponent(birthDateLabel))
                         .addGap(6, 6, 6)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(phoneTextField)
@@ -141,7 +141,7 @@ public class GUI extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(idTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(103, 103, 103)
-                        .addComponent(direccionTxt)
+                        .addComponent(addressLabel)
                         .addGap(6, 6, 6)
                         .addComponent(addressTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(45, Short.MAX_VALUE))
@@ -151,31 +151,31 @@ public class GUI extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(28, 28, 28)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(cedulaTxt)
-                    .addComponent(direccionTxt)
+                    .addComponent(idLabel)
+                    .addComponent(addressLabel)
                     .addComponent(addressTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(idTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(31, 31, 31)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(nombreTxt)
-                    .addComponent(telefonoTxt)
+                    .addComponent(firstNameLabel)
+                    .addComponent(phoneLabel)
                     .addComponent(phoneTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(firstNameTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(28, 28, 28)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(apellidoTxt)
-                    .addComponent(fnacTxt)
+                    .addComponent(lastNameLabel)
+                    .addComponent(birthDateLabel)
                     .addComponent(birthDateTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lastNameTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(32, Short.MAX_VALUE))
         );
 
-        derechaBtn.setFont(new java.awt.Font("Lilex ExtraThick", 0, 20)); // NOI18N
-        derechaBtn.setText(">>");
-        derechaBtn.setToolTipText("");
-        derechaBtn.addActionListener(new java.awt.event.ActionListener() {
+        nextBtn.setFont(new java.awt.Font("Lilex ExtraThick", 0, 20)); // NOI18N
+        nextBtn.setText(">>");
+        nextBtn.setToolTipText("");
+        nextBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                derechaBtnActionPerformed(evt);
+                nextBtnActionPerformed(evt);
             }
         });
 
@@ -183,11 +183,11 @@ public class GUI extends javax.swing.JFrame {
         jLabel8.setText("Indice:");
         jLabel8.setToolTipText("");
 
-        izquierdaBtn.setFont(new java.awt.Font("Lilex ExtraThick", 0, 20)); // NOI18N
-        izquierdaBtn.setText("<<");
-        izquierdaBtn.addActionListener(new java.awt.event.ActionListener() {
+        prevBtn.setFont(new java.awt.Font("Lilex ExtraThick", 0, 20)); // NOI18N
+        prevBtn.setText("<<");
+        prevBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                izquierdaBtnActionPerformed(evt);
+                prevBtnActionPerformed(evt);
             }
         });
 
@@ -199,13 +199,13 @@ public class GUI extends javax.swing.JFrame {
         indexNumber.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         indexNumber.setEnabled(false);
 
-        buscarTextField.setFont(new java.awt.Font("Lilex ExtraLight", 0, 18)); // NOI18N
+        searchTextField.setFont(new java.awt.Font("Lilex ExtraLight", 0, 18)); // NOI18N
 
-        buscarBtn.setFont(new java.awt.Font("Lilex ExtraThick", 0, 20)); // NOI18N
-        buscarBtn.setText("Buscar");
-        buscarBtn.addActionListener(new java.awt.event.ActionListener() {
+        searchBtn.setFont(new java.awt.Font("Lilex ExtraThick", 0, 20)); // NOI18N
+        searchBtn.setText("Buscar");
+        searchBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                buscarBtnActionPerformed(evt);
+                searchBtnActionPerformed(evt);
             }
         });
 
@@ -232,18 +232,18 @@ public class GUI extends javax.swing.JFrame {
                 .addGap(30, 30, 30)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(buscarTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(searchTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(buscarBtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(searchBtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGap(46, 46, 46))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(izquierdaBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(prevBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel8)
                         .addGap(18, 18, 18)))
                 .addComponent(indexNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(263, 263, 263)
-                .addComponent(derechaBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(nextBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(30, 30, 30))
         );
         layout.setVerticalGroup(
@@ -259,21 +259,21 @@ public class GUI extends javax.swing.JFrame {
                 .addComponent(jSeparator5, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(26, 26, 26)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(izquierdaBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(derechaBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(prevBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(nextBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(indexNumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel8))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 63, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(buscarTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(buscarBtn))
+                    .addComponent(searchTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(searchBtn))
                 .addGap(18, 18, 18))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void izquierdaBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_izquierdaBtnActionPerformed
+    private void prevBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_prevBtnActionPerformed
 
         String index = indexNumber.getText();
         int i = Integer.parseInt(index);
@@ -283,9 +283,9 @@ public class GUI extends javax.swing.JFrame {
             fillFields(i); 
         }
 
-    }//GEN-LAST:event_izquierdaBtnActionPerformed
+    }//GEN-LAST:event_prevBtnActionPerformed
 
-    private void derechaBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_derechaBtnActionPerformed
+    private void nextBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextBtnActionPerformed
 
         String index = indexNumber.getText();
         int i = Integer.parseInt(index);
@@ -295,11 +295,11 @@ public class GUI extends javax.swing.JFrame {
             fillFields(i);
         }
 
-    }//GEN-LAST:event_derechaBtnActionPerformed
+    }//GEN-LAST:event_nextBtnActionPerformed
 
-    private void buscarBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buscarBtnActionPerformed
+    private void searchBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchBtnActionPerformed
 
-        String searchTerm = normalize(buscarTextField.getText().trim());
+        String searchTerm = normalize(searchTextField.getText().trim());
         java.util.List<String[]> results = new java.util.ArrayList<>();
 
         for (int i = 0; i < ids.length; i++) {
@@ -322,31 +322,31 @@ public class GUI extends javax.swing.JFrame {
             resultWindow.setVisible(true);
         }
 
-    }//GEN-LAST:event_buscarBtnActionPerformed
+    }//GEN-LAST:event_searchBtnActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel addressLabel;
     private javax.swing.JTextField addressTextField;
-    private javax.swing.JLabel apellidoTxt;
+    private javax.swing.JLabel birthDateLabel;
     private javax.swing.JTextField birthDateTextField;
-    private javax.swing.JButton buscarBtn;
-    private javax.swing.JTextField buscarTextField;
-    private javax.swing.JLabel cedulaTxt;
-    private javax.swing.JButton derechaBtn;
-    private javax.swing.JLabel direccionTxt;
+    private javax.swing.JLabel firstNameLabel;
     private javax.swing.JTextField firstNameTextField;
-    private javax.swing.JLabel fnacTxt;
+    private javax.swing.JLabel idLabel;
     private javax.swing.JTextField idTextField;
     private javax.swing.JTextField indexNumber;
-    private javax.swing.JButton izquierdaBtn;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JSeparator jSeparator3;
     private javax.swing.JSeparator jSeparator5;
+    private javax.swing.JLabel lastNameLabel;
     private javax.swing.JTextField lastNameTextField;
-    private javax.swing.JLabel nombreTxt;
+    private javax.swing.JButton nextBtn;
+    private javax.swing.JLabel phoneLabel;
     private javax.swing.JTextField phoneTextField;
-    private javax.swing.JLabel telefonoTxt;
+    private javax.swing.JButton prevBtn;
+    private javax.swing.JButton searchBtn;
+    private javax.swing.JTextField searchTextField;
     // End of variables declaration//GEN-END:variables
 }
