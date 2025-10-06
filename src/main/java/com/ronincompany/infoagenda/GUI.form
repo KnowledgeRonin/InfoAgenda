@@ -30,16 +30,13 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jSeparator1" alignment="1" max="32767" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                          </Group>
                           <Component id="jSeparator2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPanel" alignment="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="227" max="-2" attributes="0"/>
-                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <Component id="Title" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -72,11 +69,11 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
-              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <Component id="Title" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <Component id="jPanel" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
@@ -97,23 +94,23 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="Title">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lilex" size="36" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Agenda Electronica"/>
+        <Property name="text" type="java.lang.String" value="Electronic Agenda"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JSeparator" name="jSeparator1">
     </Component>
-    <Container class="javax.swing.JPanel" name="jPanel2">
+    <Container class="javax.swing.JPanel" name="jPanel">
 
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="firstNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                       <Component id="lastNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -145,7 +142,7 @@
                           <Component id="addressTextField" min="-2" pref="200" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace pref="45" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -184,7 +181,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Lilex ExtraLight" size="18" style="0"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Cedula   :"/>
+            <Property name="text" type="java.lang.String" value="ID               :"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="firstNameLabel">
@@ -192,7 +189,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Lilex ExtraLight" size="18" style="0"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Nombre   :"/>
+            <Property name="text" type="java.lang.String" value="First name :"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lastNameLabel">
@@ -200,7 +197,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Lilex ExtraLight" size="18" style="0"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Apellido :"/>
+            <Property name="text" type="java.lang.String" value="Last name :"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="lastNameTextField">
@@ -222,7 +219,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Lilex ExtraLight" size="18" style="0"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Direccion :"/>
+            <Property name="text" type="java.lang.String" value="Address :"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="phoneLabel">
@@ -230,7 +227,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Lilex ExtraLight" size="18" style="0"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Telefono  :"/>
+            <Property name="text" type="java.lang.String" value="Phone    :"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="birthDateLabel">
@@ -238,7 +235,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Lilex ExtraLight" size="18" style="0"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="F. Nac    :"/>
+            <Property name="text" type="java.lang.String" value="Birthday :"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="addressTextField">
@@ -333,7 +330,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lilex ExtraThick" size="20" style="0"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Indice:"/>
+        <Property name="text" type="java.lang.String" value="Index"/>
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
     </Component>
@@ -377,7 +374,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Lilex ExtraThick" size="20" style="0"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Buscar"/>
+        <Property name="text" type="java.lang.String" value="Search"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchBtnActionPerformed"/>
