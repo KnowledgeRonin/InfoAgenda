@@ -1,4 +1,4 @@
-package com.ronincompany.proyectoads;
+package com.ronincompany.infoagenda;
 
 import javax.swing.*;
 import java.awt.*;

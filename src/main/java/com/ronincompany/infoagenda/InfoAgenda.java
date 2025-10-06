@@ -1,4 +1,4 @@
-package com.ronincompany.proyectoads;
+package com.ronincompany.infoagenda;
 
 public class InfoAgenda {
 
