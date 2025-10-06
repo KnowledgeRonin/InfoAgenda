@@ -18,7 +18,7 @@ public class GUI extends javax.swing.JFrame {
         addressTextField.setText(addresses[index]);
         phoneTextField.setText(phones[index]);
         birthDateTextField.setText(birthDates[index]);
-        indexNumber.setText(String.valueOf(index));
+        indexNumber.setText(String.valueOf(index)); /*comment to test*/
 
     }
     
